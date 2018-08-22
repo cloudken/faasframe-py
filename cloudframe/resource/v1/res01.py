@@ -12,7 +12,7 @@ def put(tenant, res_id, req):
     return http_client.OK, ack
 
 
-def get(tenant, res_id):
+def get(tenant, res_id=None):
     ack = {'status': 'OK'}
     return http_client.OK, ack
 
